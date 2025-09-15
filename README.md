@@ -3,7 +3,7 @@
 ## preprint: https://www.biorxiv.org/content/10.1101/2023.12.08.570806v1
 
 This is the code associated with the article "Two distinct modes of hemodynamic responses across the human cortex" (in submission process), by Samira M. Epp, Gabriel Castrillon, Beijia Yuan, Jessica Andrews-Hanna, Christine Preibisch, Valentin Riedl (2023).
-# data
+## data
 All raw and processed data are available in this online repository of [Openneuro](https://openneuro.org/datasets/ds004873).
 
 -----------------
@@ -11,6 +11,8 @@ CITATION:
 Whe using our data and/or code for scientific publications, please cite: 
 
 Samira Epp, Gabriel Castrillon, Beija Yuan, Jessica Andrews-Hanna, Christine Preibisch, and Valentin Riedl (2025). Two distinct modes of hemodynamic responses in the human brain. OpenNeuro. bioRxiv (2023): 2023-12. [Dataset] doi: doi:10.18112/openneuro.ds004873.v2.0.6
+
+-----------------
 
 ## main analyses and figures
 The input for all scripts in this github repository (two_modes_of_hemodynamics) are preprocessed nifti files, output of the mqBOLD processing, accessible in the mentioned repository. 
