@@ -5,21 +5,21 @@ net-tools \
 zip
 
 
-RUN useradd -ms /bin/bash -l -u 1541801108 gcastrillon
+RUN useradd -ms /bin/bash -l -u 1541801108 USERNAME
 # Add bless that user with sudo powers
-RUN echo "gcastrillon ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/gcastrillon \
-    && chmod 0440 /etc/sudoers.d/gcastrillon
+RUN echo "USERNAME ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/USERNAME \
+    && chmod 0440 /etc/sudoers.d/USERNAME
 
-RUN useradd -ms /bin/bash -l -u 1541801117 rbelenya
-RUN echo "rbelenya ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/rbelenya \
-    && chmod 0440 /etc/sudoers.d/rbelenya
+RUN useradd -ms /bin/bash -l -u 1541801117 USERNAME
+RUN echo "rbelenya ALL=(ALL) NOPASSWD: ALL" > /etc/sudoers.d/USERNAME \
+    && chmod 0440 /etc/sudoers.d/USERNAME
 
 # Clean up after apt-get
 RUN apt-get clean \
     && apt-get -y autoremove \
     && rm -rf /var/lib/apt/lists/*        
 
-#USER gcastrillon
+#USER USERNAME
 WORKDIR /home
 
 # Add user's matlab folders
