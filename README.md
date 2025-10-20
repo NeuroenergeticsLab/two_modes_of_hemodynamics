@@ -21,7 +21,7 @@ They need to be run in the order following their alphabetical numbering (A_ ... 
 
 
 ## preprocessing
-The mqBOLD processing of MRI data for T2, T2*, R2', CBV, OEF, and CBF parameter maps is based on MATLAB code developed by the MR physics group of Christine Preibisch (Institute for Neuroradiology, Technical University of Munich), which can be found here: https://gitlab.lrz.de/nmrm_lab/public_projects/mq-bold 
+The mqBOLD processing of MRI data for T2, T2*, R2', CBV, OEF, and CBF parameter maps is based on MATLAB code developed by the MR physics group of Christine Preibisch (Institute for Neuroradiology, Technical University of Munich), adapted for this paper (Dockerfile based on qBOLD_BIDS_Hct_April21.zip). The original code can be found here: https://gitlab.lrz.de/nmrm_lab/public_projects/mq-bold 
 
 Their program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
 without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
